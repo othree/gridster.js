@@ -1,0 +1,36 @@
+.gridster li {
+	list-style: none;
+	border: 1px solid #069;
+
+}
+
+.gridster li:nth-child(6n) {
+	background-color: #EEA9A9;
+}
+.gridster li:nth-child(6n+1) {
+	background-color: #ED784A;
+}
+.gridster li:nth-child(6n+2) {
+	background-color: #465D4C;
+}
+.gridster li:nth-child(6n+3) {
+	background-color: #255359;
+}
+.gridster li:nth-child(6n+4) {
+	background-color: #E98B2A;
+}
+.gridster li:nth-child(6n+5) {
+	background-color: #724832;
+}
+
+#control {
+	position: fixed;
+	top: 5px;
+	right: 5px;
+}
+
+#control input {
+	font-family: monospace;
+	font-size: 110%;
+	padding: 8px 16px;
+}
