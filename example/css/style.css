@@ -1,7 +1,11 @@
 .gridster li {
 	list-style: none;
 	border: 1px solid #069;
-
+	font-size: 200%;
+	font-family: monospace;;
+	line-height: 2;
+	text-indent: 16px;
+	color: #fff;
 }
 
 .gridster li:nth-child(6n) {
