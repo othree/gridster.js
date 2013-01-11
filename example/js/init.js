@@ -1,4 +1,4 @@
-/*global $: false, document: false */
+/*global $: false, document: false, console: false */
 /*jslint plusplus: true */
 (function () {
     "use strict";
@@ -22,4 +22,8 @@
 		}
 		$('body').stop().animate({scrollTop: document.body.scrollHeight}, 'slow');
 	});
+
+    window.onunload = function () {
+        console.log('leave');
+    };
 }());
